@@ -1,0 +1,65 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.btn{
+    color: white;
+    background-color: red;
+    border: 0px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 2px 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgba(255, 0, 0, 0.696);
+}
+
+
+/* <----------2nd Page----------> */
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: 2rem;
+    margin: 5px;
+}
+.inp{
+    border: 10px solid black;
+    height: 80vh;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.inp input{
+    width: 90%;
+    border: 0px;
+    background-color: rgb(219, 238, 246);
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px 5px;
+}
+.btn2{
+    width: 90%;
+    border: 0px;
+    background-color: red;
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgba(255, 0, 0, 0.747);
+}
